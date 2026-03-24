@@ -1,15 +1,23 @@
+.vscode/
+.idea/
+
+# Python
+.venv/
+.venv_*/
+venv/
+env/
+
+# Bytecode
 __pycache__/
 *.pyc
 
-.venv/
+# Env
 .env
 
-data/
+# Outputs
 output/
 outputs/
 
+# Models
 *.gguf
 models/
-
-.vscode/
-.idea/

@@ -1,0 +1,5 @@
+{"commit":{"release":"4.5.9","clientTimestamp":1774365742}}
+{"createColumn":{"i":1477852057,"n":"text","t":{"k":"text","d":{"i":"inverted_index","cc":"lz4"}}}}
+{"createColumn":{"i":2882210315,"n":"metadata","t":{"k":"dict","d":{}}}}
+{"createColumn":{"i":1556050642,"n":"embedding","t":{"k":"embedding","d":{"size":1536,"dtype":"float32","index":"clustered"}}}}
+{"createColumn":{"i":167522006,"n":"id","t":{"k":"text","d":{"i":"none","cc":"lz4"}}}}

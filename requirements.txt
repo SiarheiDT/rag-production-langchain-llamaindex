@@ -12,3 +12,4 @@ transformers
 torch
 pandas
 numpy
+python-dotenv
