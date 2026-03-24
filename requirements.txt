@@ -1,0 +1,14 @@
+langchain
+langchain-community
+langchain-openai
+llama-index
+openai
+tiktoken
+deeplake
+cohere
+wikipedia
+ragas
+transformers
+torch
+pandas
+numpy
