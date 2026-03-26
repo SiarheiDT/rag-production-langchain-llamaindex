@@ -67,8 +67,48 @@ def build_registry() -> Dict[Tuple[int, int, int], Path]:
     registry[(1, 4, 4)] = PROJECT_ROOT / "LC_01_RAG_Foundations" / "Part_4" / "m_04_004_custom_query_engine.py"
     registry[(1, 4, 5)] = PROJECT_ROOT / "LC_01_RAG_Foundations" / "Part_4" / "m_04_005_response_modes_demo.py"
     registry[(1, 4, 6)] = PROJECT_ROOT / "LC_01_RAG_Foundations" / "Part_4" / "m_04_006_local_vs_cloud_dataset_path.py"    
+    # LC_02_Retrieval_Optimization — Part 1
+    registry[(2, 1, 1)]  = PROJECT_ROOT / "LC_02_Retrieval_Optimization" / "Part_1" / "m_02_001_requirements_setup.py"
+    registry[(2, 1, 2)]  = PROJECT_ROOT / "LC_02_Retrieval_Optimization" / "Part_1" / "m_02_002_download_paul_graham_data.py"
+    registry[(2, 1, 3)]  = PROJECT_ROOT / "LC_02_Retrieval_Optimization" / "Part_1" / "m_02_003_common.py"
+    registry[(2, 1, 4)]  = PROJECT_ROOT / "LC_02_Retrieval_Optimization" / "Part_1" / "m_02_004_load_documents.py"
+    registry[(2, 1, 5)]  = PROJECT_ROOT / "LC_02_Retrieval_Optimization" / "Part_1" / "m_02_005_create_nodes.py"
+    registry[(2, 1, 6)]  = PROJECT_ROOT / "LC_02_Retrieval_Optimization" / "Part_1" / "m_02_006_create_deeplake_vector_store.py"
+    registry[(2, 1, 7)]  = PROJECT_ROOT / "LC_02_Retrieval_Optimization" / "Part_1" / "m_02_007_build_vector_index.py"
+    registry[(2, 1, 8)]  = PROJECT_ROOT / "LC_02_Retrieval_Optimization" / "Part_1" / "m_02_008_basic_query_engine_streaming.py"
+    registry[(2, 1, 9)]  = PROJECT_ROOT / "LC_02_Retrieval_Optimization" / "Part_1" / "m_02_009_subquestion_query_engine_v2.py"
+    registry[(2, 1, 10)] = PROJECT_ROOT / "LC_02_Retrieval_Optimization" / "Part_1" / "m_02_010_cohere_rerank_basic.py"
+    registry[(2, 1, 11)] = PROJECT_ROOT / "LC_02_Retrieval_Optimization" / "Part_1" / "m_02_011_cohere_rerank_llamaindex.py"    
+    # LC_03_RAG_Agent_Systems — Part 1
+    registry[(3, 1, 1)] = PROJECT_ROOT / "LC_03_RAG_Agent_Systems" / "Part_1" / "m_01_001_build_basic_rag.py"
+    registry[(3, 1, 2)] = PROJECT_ROOT / "LC_03_RAG_Agent_Systems" / "Part_1" / "m_01_002_rag_as_tool_agent.py"
+    registry[(3, 1, 3)] = PROJECT_ROOT / "LC_03_RAG_Agent_Systems" / "Part_1" / "m_01_003_multi_tool_agent.py"
+    registry[(3, 1, 4)] = PROJECT_ROOT / "LC_03_RAG_Agent_Systems" / "Part_1" / "m_01_004_multi_document_agent.py"
+    registry[(3, 1, 5)] = PROJECT_ROOT / "LC_03_RAG_Agent_Systems" / "Part_1" / "m_01_005_dynamic_tool_retriever_agent.py"    
+    registry[(3, 1, 4)] = PROJECT_ROOT / "LC_03_RAG_Agent_Systems" / "Part_1" / "m_01_004_multi_document_agent.py"
+    registry[(3, 1, 5)] = PROJECT_ROOT / "LC_03_RAG_Agent_Systems" / "Part_1" / "m_01_005_dynamic_tool_retriever_agent.py"
+    # LC_03_RAG_Agent_Systems — Part 2
+    registry[(3, 2, 1)] = PROJECT_ROOT / "LC_03_RAG_Agent_Systems" / "Part_2" / "m_02_001_openai_responses_basic.py"  
+    registry[(3, 2, 2)] = PROJECT_ROOT / "LC_03_RAG_Agent_Systems" / "Part_2" / "m_02_002_openai_responses_with_file_search.py"
+    registry[(3, 2, 3)] = PROJECT_ROOT / "LC_03_RAG_Agent_Systems" / "Part_2" / "m_02_003_openai_responses_with_code_interpreter.py"
+    registry[(3, 2, 4)] = PROJECT_ROOT / "LC_03_RAG_Agent_Systems" / "Part_2" / "m_02_004_openai_function_calling_basic.py"
+    # LC_03_RAG_Agent_Systems — Part 3
+    registry[(3, 3, 1)] = PROJECT_ROOT / "LC_03_RAG_Agent_Systems" / "Part_3" / "m_03_001_prepare_shopping_catalog.py"
+    registry[(3, 3, 2)] = PROJECT_ROOT / "LC_03_RAG_Agent_Systems" / "Part_3" / "m_03_002_build_product_rag_index.py"
+    registry[(3, 3, 3)] = PROJECT_ROOT / "LC_03_RAG_Agent_Systems" / "Part_3" / "m_03_003_inventory_query_engine.py"
+    registry[(3, 3, 4)] = PROJECT_ROOT / "LC_03_RAG_Agent_Systems" / "Part_3" / "m_03_004_shopping_tools_basic.py"
+    registry[(3, 3, 5)] = PROJECT_ROOT / "LC_03_RAG_Agent_Systems" / "Part_3" / "m_03_005_shopping_agent_basic.py"
+    registry[(3, 3, 6)] = PROJECT_ROOT / "LC_03_RAG_Agent_Systems" / "Part_3" / "m_03_006_shopping_agent_with_weather.py"
+    # LC_04_RAG_Evaluation_Observability — Part 1
+    registry[(4, 1, 1)] = PROJECT_ROOT / "LC_04_RAG_Evaluation_Observability" / "Part_1" / "m_01_001_retrieval_metrics_demo.py"
+    registry[(4, 1, 2)] = PROJECT_ROOT / "LC_04_RAG_Evaluation_Observability" / "Part_1" / "m_01_002_golden_dataset_template.py"
+    registry[(4, 1, 3)] = PROJECT_ROOT / "LC_04_RAG_Evaluation_Observability" / "Part_1" / "m_01_003_faithfulness_vs_relevance_demo.py"
+    registry[(4, 1, 4)] = PROJECT_ROOT / "LC_04_RAG_Evaluation_Observability" / "Part_1" / "m_01_004_llamaindex_faithfulness_eval.py"
+    registry[(4, 1, 5)] = PROJECT_ROOT / "LC_04_RAG_Evaluation_Observability" / "Part_1" / "m_01_005_ragas_eval_pipeline.py"
+    registry[(4, 1, 6)] = PROJECT_ROOT / "LC_04_RAG_Evaluation_Observability" / "Part_1" / "m_01_006_batch_eval_runner_template.py"
+    registry[(4, 1, 7)] = PROJECT_ROOT / "LC_04_RAG_Evaluation_Observability" / "Part_1" / "m_01_007_end_to_end_rag_eval_pipeline.py"
+       
     return registry
-
 
 def parse_args(argv: List[str]) -> tuple[argparse.Namespace, List[str]]:
     """Parse runner arguments and preserve script arguments after `--`."""

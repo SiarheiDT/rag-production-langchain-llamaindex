@@ -1,0 +1,3 @@
+Evaluation in RAG systems includes metrics like faithfulness and relevance.
+Faithfulness ensures the answer is grounded in retrieved context.
+Relevance ensures the answer addresses the user query directly.

@@ -1,0 +1,17 @@
+[
+  {
+    "question": "What is Databricks?",
+    "expected_answer": "Databricks is a unified data analytics platform built on Apache Spark.",
+    "expected_doc_ids": ["doc1"]
+  },
+  {
+    "question": "What is RAG?",
+    "expected_answer": "RAG combines retrieval with language models to generate answers using context.",
+    "expected_doc_ids": ["doc2"]
+  },
+  {
+    "question": "What is faithfulness in RAG?",
+    "expected_answer": "Faithfulness ensures the answer is grounded in retrieved context.",
+    "expected_doc_ids": ["doc3"]
+  }
+]

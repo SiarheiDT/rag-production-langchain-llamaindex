@@ -1,23 +1,67 @@
+# =========================
+# IDE
+# =========================
 .vscode/
 .idea/
 
-# Python
+# =========================
+# Python environments
+# =========================
 .venv/
 .venv_*/
 venv/
 env/
 
-# Bytecode
+# =========================
+# Python cache / build
+# =========================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.so
 
-# Env
+# =========================
+# Packaging / build
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Environment variables
+# =========================
 .env
+.env.*
 
-# Outputs
+# =========================
+# Outputs / artifacts
+# =========================
 output/
 outputs/
+logs/
+*.log
 
-# Models
+# =========================
+# LLM / ML artifacts
+# =========================
 *.gguf
+*.bin
+*.pt
+*.onnx
 models/
+checkpoints/
+
+# =========================
+# Vector DB / datasets
+# =========================
+deeplake_dataset/
+storage/
+*.parquet
+*.faiss
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
