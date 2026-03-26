@@ -1,0 +1,9 @@
+Retrieval-Augmented Generation (RAG) is widely used in production systems.
+It enables language models to access external knowledge sources.
+This improves performance in question answering tasks.
+
+However, retrieval quality is critical.
+If irrelevant documents are retrieved, the model may generate incorrect answers.
+
+Therefore, reranking and filtering are often applied.
+These techniques help improve precision and reduce noise in the context.

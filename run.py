@@ -107,7 +107,14 @@ def build_registry() -> Dict[Tuple[int, int, int], Path]:
     registry[(4, 1, 5)] = PROJECT_ROOT / "LC_04_RAG_Evaluation_Observability" / "Part_1" / "m_01_005_ragas_eval_pipeline.py"
     registry[(4, 1, 6)] = PROJECT_ROOT / "LC_04_RAG_Evaluation_Observability" / "Part_1" / "m_01_006_batch_eval_runner_template.py"
     registry[(4, 1, 7)] = PROJECT_ROOT / "LC_04_RAG_Evaluation_Observability" / "Part_1" / "m_01_007_end_to_end_rag_eval_pipeline.py"
-       
+    # LC_04_RAG_Evaluation_Observability — Part 2
+    registry[(4, 2, 1)] = PROJECT_ROOT / "LC_04_RAG_Evaluation_Observability" / "Part_2" / "m_02_001_langsmith_env_check.py"
+    registry[(4, 2, 2)] = PROJECT_ROOT / "LC_04_RAG_Evaluation_Observability" / "Part_2" / "m_02_002_basic_langsmith_trace.py"
+    registry[(4, 2, 3)] = PROJECT_ROOT / "LC_04_RAG_Evaluation_Observability" / "Part_2" / "m_02_003_langsmith_prompt_versioning_demo.py"
+    registry[(4, 2, 4)] = PROJECT_ROOT / "LC_04_RAG_Evaluation_Observability" / "Part_2" / "m_02_004_langsmith_traced_rag_pipeline.py"
+    registry[(4, 2, 5)] = PROJECT_ROOT / "LC_04_RAG_Evaluation_Observability" / "Part_2" / "m_02_005_langsmith_run_metadata_demo.py"
+    registry[(4, 2, 6)] = PROJECT_ROOT / "LC_04_RAG_Evaluation_Observability" / "Part_2" / "m_02_006_langserve_export_stub.py"       
+    
     return registry
 
 def parse_args(argv: List[str]) -> tuple[argparse.Namespace, List[str]]:

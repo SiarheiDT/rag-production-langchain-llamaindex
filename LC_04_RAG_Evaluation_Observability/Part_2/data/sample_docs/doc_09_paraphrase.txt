@@ -1,0 +1,2 @@
+Combining search with text generation allows systems to answer questions more accurately.
+By grounding outputs in retrieved knowledge, such systems reduce incorrect statements.

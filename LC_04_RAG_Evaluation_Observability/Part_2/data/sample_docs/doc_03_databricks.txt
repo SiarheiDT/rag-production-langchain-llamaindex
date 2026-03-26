@@ -1,0 +1,3 @@
+Databricks is a unified analytics platform built on Apache Spark.
+It provides tools for data engineering, machine learning, and data processing.
+Delta Lake enables ACID transactions on large-scale data.

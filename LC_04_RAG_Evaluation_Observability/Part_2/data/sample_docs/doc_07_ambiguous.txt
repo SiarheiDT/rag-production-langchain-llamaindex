@@ -1,0 +1,2 @@
+Modern AI systems rely on data and models to generate outputs.
+The effectiveness of these systems depends on multiple factors.

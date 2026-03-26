@@ -1,0 +1,3 @@
+Some systems claim that RAG does not reduce hallucinations significantly.
+In certain benchmarks, retrieval introduces noise that harms answer quality.
+This suggests that RAG may not always improve factual accuracy.

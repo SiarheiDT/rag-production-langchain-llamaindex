@@ -1,0 +1,2 @@
+Retrieval improves answer quality by providing additional context.
+However, the effectiveness depends on the quality of retrieved documents.
