@@ -6,7 +6,7 @@ It loads a GitHub repository, stores it in a Deep Lake vector store,
 builds a LlamaIndex VectorStoreIndex, and starts an interactive Q&A loop.
 
 Usage examples:
-    python m_04_001_github_quickstart.py --github_url https://github.com/owner/repo
+    python m_04_001_github_quickstart.py --github_url http://github.com/langchain-ai/langchain-academy
     python m_04_001_github_quickstart.py --github_url https://github.com/owner/repo --dataset_path ./repository_db
     python m_04_001_github_quickstart.py --github_url https://github.com/owner/repo --dataset_path hub://YOUR_ORG/repository_vector_store
 """

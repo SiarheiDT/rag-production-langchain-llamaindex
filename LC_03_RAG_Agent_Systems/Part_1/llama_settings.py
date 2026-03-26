@@ -15,11 +15,22 @@ def build_llama_settings(
 ) -> None:
     """
     Configure global LlamaIndex settings.
+
+    Parameters
+    ----------
+    model : str
+        OpenAI model name.
+    temperature : float
+        Sampling temperature.
     """
+
+    # LLM used for generation
     Settings.llm = OpenAI(
         model=model,
         temperature=temperature,
     )
+
+    # Embedding model used for vector search
     Settings.embed_model = OpenAIEmbedding(
         model="text-embedding-3-small"
     )
